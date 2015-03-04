@@ -6,10 +6,7 @@ from collections import Mapping
 from datetime import datetime, timedelta
 
 from .compat import string_types, text_type, timedelta_total_seconds
-from .exceptions import (
-    DecodeError, ExpiredSignatureError,
-    InvalidAudienceError, InvalidIssuerError
-)
+from .exceptions import DecodeError, ExpiredSignatureError, InvalidAudienceError, InvalidIssuerError
 from .utils import base64url_decode, base64url_encode
 
 
